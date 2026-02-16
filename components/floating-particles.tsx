@@ -32,7 +32,7 @@ export function FloatingParticles() {
     }
 
     const particles: Particle[] = []
-    const particleCount = 60
+    const particleCount = canvas.width < 640 ? 30 : 60
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
