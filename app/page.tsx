@@ -9,14 +9,14 @@ import { MusicPlayer } from "@/components/music-player"
 export default function Page() {
   const [musicStarted, setMusicStarted] = useState(false)
 
-  function handleLetterOpened() {
+  function handleFirstInteraction() {
     if (!musicStarted) {
       setMusicStarted(true)
     }
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="relative min-h-screen overflow-hidden" onClick={handleFirstInteraction}>
       {/* Background image */}
       <div className="fixed inset-0 z-0">
         <Image
@@ -34,7 +34,7 @@ export default function Page() {
 
       {/* Main content */}
       <div className="relative z-20">
-        <EnvelopeCard onOpen={handleLetterOpened} />
+        <EnvelopeCard onOpen={handleFirstInteraction} />
       </div>
 
       {/* Music player */}

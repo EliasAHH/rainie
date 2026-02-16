@@ -17,7 +17,7 @@ export function EnvelopeCard({ onOpen }: EnvelopeCardProps) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center px-4 py-16">
+    <div className="flex min-h-screen flex-col items-center justify-center px-4 pb-24 pt-16">
       {/* Sealed envelope state */}
       {!isOpened && (
         <div className="flex flex-col items-center gap-8">
