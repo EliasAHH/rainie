@@ -22,7 +22,9 @@ interface MusicPlayerProps {
 }
 
 export function MusicPlayer({ autoStart }: MusicPlayerProps) {
-  const [currentSong, setCurrentSong] = useState(0)
+  const [currentSong, setCurrentSong] = useState(() =>
+    Math.floor(Math.random() * playlist.length)
+  )
   const [isPlaying, setIsPlaying] = useState(false)
 
   useEffect(() => {
