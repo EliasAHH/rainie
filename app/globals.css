@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-in {
+    animation: animate-in 0.7s ease-out forwards;
+  }
+
+  .fade-in {
+    --tw-enter-opacity: 0;
+  }
+
+  .slide-in-from-bottom-8 {
+    --tw-enter-translate-y: 2rem;
+  }
+}
+
+@keyframes animate-in {
+  from {
+    opacity: var(--tw-enter-opacity, 1);
+    transform: translateY(var(--tw-enter-translate-y, 0));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer base {
+  :root {
+    --background: 270 20% 7%;
+    --foreground: 300 20% 92%;
+    --card: 270 25% 10%;
+    --card-foreground: 300 20% 92%;
+    --popover: 270 25% 10%;
+    --popover-foreground: 300 20% 92%;
+    --primary: 320 80% 55%;
+    --primary-foreground: 300 20% 98%;
+    --secondary: 270 20% 15%;
+    --secondary-foreground: 300 20% 85%;
+    --muted: 270 15% 18%;
+    --muted-foreground: 300 10% 55%;
+    --accent: 280 60% 40%;
+    --accent-foreground: 300 20% 95%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 280 30% 20%;
+    --input: 280 30% 20%;
+    --ring: 320 80% 55%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
