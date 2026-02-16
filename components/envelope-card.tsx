@@ -29,7 +29,7 @@ export function EnvelopeCard({ onOpen }: EnvelopeCardProps) {
             <h1 className="font-serif text-5xl font-bold tracking-wider text-foreground sm:text-7xl">
               Rainie
             </h1>
-            <div className="mx-auto mt-4 flex items-center gap-3">
+            <div className="mx-auto mt-4 flex items-center justify-center gap-3">
               <div className="h-px w-12 bg-primary/40" />
               <svg width="16" height="16" viewBox="0 0 24 24" fill="hsl(320, 80%, 55%)" aria-hidden="true">
                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />

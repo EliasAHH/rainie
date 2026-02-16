@@ -10,10 +10,10 @@ interface Song {
 
 const playlist: Song[] = [
   { title: "Black Swan", artist: "BTS", youtubeId: "0lapF4DQPKQ" },
-  { title: "People", artist: "BTS (Agust D)", youtubeId: "dOBbP3kEr0" },
-  { title: "Snooze", artist: "BTS (Agust D)", youtubeId: "hUr_p3hu-cM" },
-  { title: "Notes'n'Words", artist: "ONE OK ROCK", youtubeId: "GCOVPlFt4eM" },
-  { title: "Letting Go", artist: "ONE OK ROCK", youtubeId: "vQ8-bP3kEr0" },
+  { title: "People", artist: "Agust D", youtubeId: "PLSQhFxBsas" },
+  { title: "Snooze", artist: "Agust D", youtubeId: "okfdIIUQOik" },
+  { title: "Notes'n'Words", artist: "ONE OK ROCK", youtubeId: "6X8smR_pSXI" },
+  { title: "Letting Go", artist: "ONE OK ROCK", youtubeId: "Lb3eBql5ABM" },
   { title: "Tiny Pieces", artist: "ONE OK ROCK", youtubeId: "q4kGS0NIKU4" },
 ]
 
@@ -63,10 +63,11 @@ export function MusicPlayer({ autoStart }: MusicPlayerProps) {
       {/* Hidden YouTube iframe for audio */}
       {isPlaying && (
         <iframe
+          key={song.youtubeId}
           ref={playerRef}
           className="hidden"
-          src={`https://www.youtube.com/embed/${song.youtubeId}?autoplay=1&loop=0`}
-          allow="autoplay"
+          src={`https://www.youtube.com/embed/${song.youtubeId}?autoplay=1&loop=0&enablejsapi=1`}
+          allow="autoplay; encrypted-media"
           title={`Playing ${song.title}`}
         />
       )}
