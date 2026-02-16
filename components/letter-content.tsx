@@ -17,36 +17,41 @@ export function LetterContent() {
       {/* Letter header */}
       <div className="mb-8 text-center">
         <p className="text-sm tracking-widest text-muted-foreground">
-          February 14, 2026
+          February 16, 2026
         </p>
         <div className="mx-auto my-4 h-px w-24 bg-primary/30" />
       </div>
 
       {/* Greeting */}
       <h2 className="mb-6 text-center font-serif text-3xl font-bold tracking-wide text-primary sm:text-4xl">
-        My Dearest Rainie,
+        Oh Vanilla Bean,
       </h2>
 
       {/* Letter body - PLACEHOLDER MESSAGE */}
       <div className="mx-auto max-w-lg space-y-4 font-sans text-base leading-relaxed text-foreground/85 sm:text-lg">
         <p>
-          {/* ============================================ */}
-          {/* REPLACE THIS WITH YOUR PERSONAL MESSAGE BELOW */}
-          {/* ============================================ */}
-          In every chapter of my life, you are my favorite story. Like the
-          pages of the dark fantasy worlds you adore, our love has its own
-          magic -- deep, enchanting, and beautifully mysterious.
+          There's not much I can say that hasn't been said a million times already, but I'm going to give this my best attempt. I'm not the best at writing or expressing my feelings, but I will say one thing: having you in my life has given me motivation again. You've brought me happiness, brought me excitement for the next day and the future and that's all because of you.
         </p>
         <p>
-          You are the warmth of a perfect cup of coffee on a cold morning,
-          the comfort of a beloved book on a quiet night, and the melody
-          that plays softly in every moment we share.
+       I don't know how you came into my life, but I'm never going to question it or be mad at it, because every day with you is a new excitement. You're so quirky and excitable—you make conversations fun. Every day I'm happy to talk to you. I have a smile on my face. Most importantly, you provide a certain comfort that makes me feel safe. Safe enough to share personal things and vulnerable things. That kind of trust doesn't come easily for me, but with you, it feels natural.
         </p>
         <p>
-          From the haunting beauty of Black Swan to the gentle ache of
-          Letting Go, every song reminds me of a different shade of us.
-          You are my entire playlist, Rainie -- every note, every lyric,
-          every pause between the beats.
+         You are so special, Rainie. Sometimes to the point that you don't even see it yourself. You make everyone around you feel happy. You are the light. You are that person we want to gravitate towards. You are so, so important, and I never want you to forget that. I know things get hard and we get depressed, but that's why I made this. I want you to know that at any point, you're not alone. There are people in your life that care deeply about you and your happiness the same way you care about ours. When you're struggling, I want to be there. When you need someone to lean on, I want to be that person for you, the way you've been that person for me..
+        </p>
+        <p>
+          You are so special, and I'm so thankful that I get to talk to you every day. Not only that, but I get to call you my girl. I want to be able to live up to your expectations. I want to be able to make you happy and keep that smile on your face. I want to be someone you're proud of, someone who supports your dreams and celebrates every win with you, no matter how small.
+        </p>
+        <p>
+          You even got me reading a book with you. NO ONE HAS EVER DONE THAT. But it's something I wanted to do with you because spending time with you is so important. Whether we're talking about nothing at all or sharing something deep, every moment matters to me. I find myself looking forward to the little things, our inside jokes, the way you get excited about things, even just hearing about your day. These moments have become the best parts of mine.
+        </p>
+        <p>
+         I have made a lot of mistakes in my life, but you will never be one of them. We've joked around so much before that God made you specifically for me, just handmade, but part of me isn't kidding. You're the perfect woman for me. You're the one I've been searching for. From your empathy to your quirkiness and excitableness, to you being loud, to you being hyper, to your love of dogs and family, every single part of you just fits. My only question is, why weren't you here sooner?
+        </p>
+        <p>
+          Words cannot express how comfortable and how happy I am when I'm with you, and I can only hope I can give you the same feeling back. I promise to keep trying every single day to be the person you deserve. To make you laugh when you're down, to listen when you need to talk, and to remind you just how incredible you are, especially on the days when you forget.
+        </p>
+        <p>
+          Thank you for being you. Thank you for choosing me. Thank you for making life feel exciting again.
         </p>
         <p className="text-center font-serif text-lg italic text-primary/80 sm:text-xl">
           You are the magic I never knew I was searching for.
